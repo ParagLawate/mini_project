@@ -1,0 +1,29 @@
+<section class="showcase">
+    <header>
+      <h2 class="logo">Authetication Website</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="https://traversymedia.com/downloads/videos/explore.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>DeAuth</h2> 
+      
+      <h3>Blockchain-Decentralised Ledger</h3>
+      <p>Blockchain is a digital decentralized public ledger designed to record every data exchange on its network. Therefore for the security of data exchange on the network, blockchain flow’s a process that verifies a user with distributed ledger and also verifies the digital identity of the user at the same time to protect the passwords and data of the user, this process is known as Blockchain Authentication</p>
+      <a href="#">DeAuth</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">DeAuth Research Paper</a></li>
+      <li><a href="#">More</a></li>
+      <li><a href="#">Creators</a></li>
+    </ul>
+  </div>

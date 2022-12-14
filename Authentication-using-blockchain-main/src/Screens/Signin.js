@@ -1,7 +1,10 @@
 import * as React from "react";
-import myimage from './DeAuth.jpg'
+import myimage from './logo.jpg'
+import  "./logo8.jpg";
+
 import { loadBlockchainData, loadWeb3 } from "../Web3helpers";
 import { useNavigate } from "react-router-dom";
+import { Bloodtype, BloodtypeOutlined } from "@mui/icons-material";
 
 export default function SignIn() {
   const [email, setEmail] = React.useState("");
@@ -52,10 +55,11 @@ export default function SignIn() {
     <div style={rootDiv}>
       <img
         src={myimage}
-        style={{ width: 150, height: 150 }}
+        style={{ width: 200, height: 200, styleborder :"solid #ffffff" } }
         
         alt="DeAuth"
       />
+
       <input
         style={input}
         value={email}
@@ -76,7 +80,7 @@ export default function SignIn() {
       </button>
 
       <span
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", color : "white" }}
         onClick={() => {
           navigate("/Signup");
         }}
@@ -85,10 +89,14 @@ export default function SignIn() {
         Create new account{" "}
       </span>
     </div>
+
+   
   );
 }
 
 const rootDiv = {
+  backgroundImage : `url("./logo8.jpg")`,
+  backgroundSize : "cover",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
@@ -112,9 +120,10 @@ const button = {
   borderRadius: 10,
   margin: 10,
   cursor: "pointer",
-  fontSize: 17,
-  color: "white",
-  backgroundColor: "#9D27CD",
+  fontSize: 19,
+  fontWeight :"bold" ,
+   color: "white",
+  backgroundColor: "#212622",
   border: "none",
 };
 

@@ -1,5 +1,6 @@
 import * as React from "react";
-import myimage from './DeAuth.jpg'
+import myimage from './logo.jpg'
+import  "./ss1.jpg";
 import { loadBlockchainData, loadWeb3 } from "../Web3helpers";
 
 import { useNavigate } from "react-router-dom";
@@ -55,7 +56,7 @@ export default function SignUp() {
     <div style={rootDiv}>
       <img
         src={myimage}
-        style={{ width: 150, height: 150 }}
+        style={{ width: 200, height: 200 }}
         
         alt="DeAuth"
       />
@@ -89,6 +90,8 @@ export default function SignUp() {
 }
 
 const rootDiv = {
+  backgroundImage : `url("./ss1.jpg")`,
+  backgroundSize : "cover",
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
@@ -113,8 +116,10 @@ const button = {
   margin: 10,
   cursor: "pointer",
   fontSize: 17,
+  fontWeight :"bold" ,
   color: "white",
-  backgroundColor: "#9D27CD",
+  backgroundColor: "#6e3585",
+
   border: "none",
 };
 
